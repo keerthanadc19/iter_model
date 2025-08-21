@@ -8,8 +8,9 @@ import urllib.request
 # =========================
 # Download Model Files if not present
 # =========================
-MODEL_URL = "https://github.com/chuanqi305/MobileNet-SSD/raw/master/MobileNetSSD_deploy.caffemodel"
-PROTOTXT_URL = "https://github.com/chuanqi305/MobileNet-SSD/raw/master/MobileNetSSD_deploy.prototxt"
+MODEL_URL = "https://github.com/opencv/opencv_extra/raw/master/testdata/dnn/MobileNetSSD_deploy.caffemodel"
+PROTOTXT_URL = "https://github.com/opencv/opencv_extra/raw/master/testdata/dnn/MobileNetSSD_deploy.prototxt"
+
 
 MODEL_PATH = "MobileNetSSD_deploy.caffemodel"
 PROTOTXT_PATH = "MobileNetSSD_deploy.prototxt"
